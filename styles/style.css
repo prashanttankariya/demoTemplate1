@@ -1,0 +1,165 @@
+ @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../imgs/background.jpg');
+    background-size: 100% 100%;
+    font-family: 'Muli', sans-serif;
+
+}
+header{
+  max-width: 100%;
+  height: auto;
+
+}
+nav{
+  display: flex;
+  width: 100%;
+}
+.brand-logo{
+  width: 40%;
+}
+.brand-logo img{
+    height: 180px;
+    width: 230px;
+    position: relative;
+    left: 150px;
+    top: -25px;
+}
+nav ul{
+  width: 60%;
+  list-style: none;
+  margin-top: 40px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 15px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.showcase{
+      height: 350px;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.main-area h5{
+  font-size: 0.8em;
+  font-weight: bold;
+  position: relative;
+  top: 65px;
+  left: 110px;
+  color: #fff;
+  letter-spacing: 0.3px;
+}
+.main-area h1{
+  font-size: 9em;
+  font-weight: bold;
+  color: #fff;
+}
+.main-area button{
+  background: none;
+  border: 0px;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: 1px;
+  border: 1px solid rgba(255,255,255,0);
+  padding: 10px;
+}
+.main-area button:hover{
+  background: none;
+  border: 0px;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: 1px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.fa-arrow-right{
+  font-size: 0.9em;
+  color: #fff;
+
+}
+.main-area button:hover .fa-arrow-right{
+      padding-left: 15px;
+      transition: 0.5s ease-in;
+}
+.play_btn_space{
+  width: 100vw;
+
+  display: flex;
+}
+.round{
+  width: 50px;
+  height: 50px;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 250px;
+  margin-top: 25px;
+}
+.sec-round{
+  width: 35px;
+  height: 35px;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.fa-play{
+  color: #fff;
+  font-si: ;ze: 0.5em;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.mission{
+  position: relative;
+  left: -300px;
+  top: 42px;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+
+/* media  ---------------------------------------------*/
+@media (max-width:720px) {
+      .container{
+        background-size: 100% 100%;
+        height: auto;
+        width: 100%;
+      }
+      header{
+        width: 100%;
+      }
+      .brand-logo{
+        width: 100%;
+      }
+      .brand-logo img{
+          height: 180px;
+          width: 230px;
+          position: relative;
+          left: 150px;
+          top: -25px;
+      }
+      nav{
+        width: 100%;
+        display: block;
+      }
+      ul li{
+        display: block;
+      }
+
+}/*media ends */
